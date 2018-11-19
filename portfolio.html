@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<!-- Copy from index.html -->
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>Lilia Nguyen</title>
+
+<!-- Css -->
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+      
+<!-- typefont links -->
+      <link href="https://fonts.googleapis.com/css?family=Fauna+One|Open+Sans" rel="stylesheet">
+
+   </head>
+   <body>
+<!-- Navbar -->
+      <nav class="navbar navbar-default navbar-fixed-top">
+         <div class="col-md-12">
+            <div class="nav">
+               <button class="btn-nav">
+               <span class="icon-bar inverted top"></span>
+               <span class="icon-bar inverted middle"></span>
+               <span class="icon-bar inverted bottom"></span>
+               </button>
+            </div>
+            <a class="navbar-brand" href="index.html">
+<!-- main image and icon -->
+               <img class="logo" src="img/logo.png" alt="logo">
+            </a>
+            <div class="nav-content hideNav hidden">
+               <ul class="nav-list vcenter">
+                  <li class="nav-item"><a class="item-anchor" href="index.html">Home</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="about.html">About Me</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="portfolio.html">Portfolio</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+
+<!-- porfolio section -->
+<section id="portfolio">
+        <div class="container">
+           <ul class="portfolio-sorting list-inline text-center">
+              <li><a href="#" data-group="all" class="active">All</a>
+              </li>
+              <li><a href="#" data-group="photography">Photography</a>
+              </li>
+              <li><a href="#" data-group="design">Design</a>
+              </li>
+              <li><a href="#" data-group="drawing">Drawing</a>
+              </li>
+           </ul>
+ <!-- Images + designs-->
+           <div class="row">
+              <div class="col-sm-12">
+                 <div class="lightbox-grid square-thumbs" data-gallery-title="Gallery">
+                    <ul class="portfolio-items list-unstyled" id="grid">
+                       <li class="col-md-4 col-sm-12 col-xs-12 no-gutter" data-groups='["design"]'>
+                          <a href="img/img1.jpg" data-lightbox="true">
+                             <div class="background-image-holder">
+                                <img alt="portfolio" class="background-image" src="img/img1.jpg" />
+                             </div>
+                          </a>
+                       </li>
+                       <li class="col-md-4 col-sm-12 col-xs-12 no-gutter" data-groups='["design"]'>
+                          <a href="img/img2.jpg" data-lightbox="true">
+                             <div class="background-image-holder">
+                                <img alt="portfolio" class="background-image" src="img/img2.jpg" />
+                             </div>
+                          </a>
+                       </li>
+<!-- Photography -->
+                       <li class="col-md-4 col-sm-12 col-xs-12 no-gutter" data-groups='["photography"]'>
+                          <a href="img/photo1.jpg" data-lightbox="true">
+                             <div class="background-image-holder">
+                                <img alt="portfolio" class="background-image" src="img/photo1.jpg" />
+                             </div>
+                          </a>
+                       </li>
+                       <li class="col-md-4 col-sm-12 col-xs-12 no-gutter" data-groups='["photography"]'>
+                          <a href="img/photo2.jpg" data-lightbox="true">
+                             <div class="background-image-holder">
+                                <img alt="portfolio" class="background-image" src="img/photo2.jpg" />
+                             </div>
+                          </a>
+                       </li>
+                       </li>
+                       <li class="col-md-4 col-sm-12 col-xs-12 no-gutter" data-groups='["photography"]'>
+                           <a href="img/photo3.jpg" data-lightbox="true">
+                               <div class="background-image-holder">
+                               <img alt="portfolio" class="background-image" src="img/photo3.jpg" />
+                               </div>
+                            </a>
+                        </li>
+                       <li class="col-md-4 col-sm-12 col-xs-12 no-gutter" data-groups='["drawing"]'>
+                          <a href="img/draw1.jpeg" data-lightbox="true">
+                             <div class="background-image-holder">
+                                <img alt="portfolio" class="background-image" src="img/draw1.jpg" />
+                             </div>
+                          </a>
+                       </li>
+<!-- drawing -->
+                       <li class="col-md-4 col-sm-12 col-xs-12 no-gutter" data-groups='["drawing"]'>
+                          <a href="img/draw6.JPG" data-lightbox="true">
+                             <div class="background-image-holder">
+                                <img alt="portfolio" class="background-image" src="img/draw6.JPG" />
+                             </div>
+                          </a>
+                       <li class="col-md-4 col-sm-12 col-xs-12 no-gutter" data-groups='["drawing"]'>
+                          <a href="img/draw3.JPG" data-lightbox="true">
+                             <div class="background-image-holder">
+                                <img alt="portfolio" class="background-image" src="img/draw3.JPG" />
+                             </div>
+                          </a>
+                       </li>
+                       <li class="col-md-4 col-sm-12 col-xs-12 no-gutter" data-groups='["drawing"]'>
+                          <a href="img/draw5.JPG" data-lightbox="true">
+                             <div class="background-image-holder">
+                                <img alt="portfolio" class="background-image" src="img/draw5.jpg" />
+                             </div>
+                          </a>
+                       </li>
+                    </ul>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </section>
+
+<!-- script to JS -->
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/lightbox-plus-jquery.js"></script>
+      <script src="js/jquery.shuffle.min.js"></script>
+      <script src="js/modernizr.js"></script>
+      <script src="js/script.js"></script>
+   </body>
+</html>
